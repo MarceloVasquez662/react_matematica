@@ -2,7 +2,7 @@
   "name": "aplicacion-matematica",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/MarceloVasquez662/react_matematica",
+  "homepage": "https://MarceloVasquez662.github.io/react_matematica",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
