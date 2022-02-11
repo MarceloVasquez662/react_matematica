@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/MarceloVasquez662/react_matematica/static/css/main.bd898e6f.chunk.css",
-    "main.js": "/MarceloVasquez662/react_matematica/static/js/main.92c04ae8.chunk.js",
-    "main.js.map": "/MarceloVasquez662/react_matematica/static/js/main.92c04ae8.chunk.js.map",
-    "runtime-main.js": "/MarceloVasquez662/react_matematica/static/js/runtime-main.acbdc429.js",
-    "runtime-main.js.map": "/MarceloVasquez662/react_matematica/static/js/runtime-main.acbdc429.js.map",
-    "static/js/2.4746102e.chunk.js": "/MarceloVasquez662/react_matematica/static/js/2.4746102e.chunk.js",
-    "static/js/2.4746102e.chunk.js.map": "/MarceloVasquez662/react_matematica/static/js/2.4746102e.chunk.js.map",
-    "index.html": "/MarceloVasquez662/react_matematica/index.html",
-    "precache-manifest.204dd749e625378a9f6882e6f3e39401.js": "/MarceloVasquez662/react_matematica/precache-manifest.204dd749e625378a9f6882e6f3e39401.js",
-    "service-worker.js": "/MarceloVasquez662/react_matematica/service-worker.js",
-    "static/css/main.bd898e6f.chunk.css.map": "/MarceloVasquez662/react_matematica/static/css/main.bd898e6f.chunk.css.map",
-    "static/js/2.4746102e.chunk.js.LICENSE": "/MarceloVasquez662/react_matematica/static/js/2.4746102e.chunk.js.LICENSE",
-    "static/media/index.css": "/MarceloVasquez662/react_matematica/static/media/fondo.203aa84f.png"
+    "main.css": "/react_matematica/static/css/main.880b28c0.chunk.css",
+    "main.js": "/react_matematica/static/js/main.940418a5.chunk.js",
+    "main.js.map": "/react_matematica/static/js/main.940418a5.chunk.js.map",
+    "runtime-main.js": "/react_matematica/static/js/runtime-main.bd0bb8f2.js",
+    "runtime-main.js.map": "/react_matematica/static/js/runtime-main.bd0bb8f2.js.map",
+    "static/js/2.4746102e.chunk.js": "/react_matematica/static/js/2.4746102e.chunk.js",
+    "static/js/2.4746102e.chunk.js.map": "/react_matematica/static/js/2.4746102e.chunk.js.map",
+    "index.html": "/react_matematica/index.html",
+    "precache-manifest.3321af6e91cb341556a4a13b48650279.js": "/react_matematica/precache-manifest.3321af6e91cb341556a4a13b48650279.js",
+    "service-worker.js": "/react_matematica/service-worker.js",
+    "static/css/main.880b28c0.chunk.css.map": "/react_matematica/static/css/main.880b28c0.chunk.css.map",
+    "static/js/2.4746102e.chunk.js.LICENSE": "/react_matematica/static/js/2.4746102e.chunk.js.LICENSE",
+    "static/media/index.css": "/react_matematica/static/media/fondo.203aa84f.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.acbdc429.js",
+    "static/js/runtime-main.bd0bb8f2.js",
     "static/js/2.4746102e.chunk.js",
-    "static/css/main.bd898e6f.chunk.css",
-    "static/js/main.92c04ae8.chunk.js"
+    "static/css/main.880b28c0.chunk.css",
+    "static/js/main.940418a5.chunk.js"
   ]
 }
