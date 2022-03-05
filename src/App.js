@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import "./App.css";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Inicio from "./componentes/Inicio";
-import NF from "./componentes/NF";
 import Suma from "./componentes/Suma";
 import Resta from "./componentes/Resta";
 import Division from "./componentes/Division";

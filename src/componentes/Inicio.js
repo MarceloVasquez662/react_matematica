@@ -6,7 +6,7 @@ export default class Inicio extends Component {
   render() {
     return (
       <div>
-        <Banner subtitulo="Selecciona una de las opciones para practicar cualquier operacion" />
+        <Banner subtitulo="Selecciona una de las opciones para practicar cualquier operacin" />
         <Opciones />
       </div>
     );

@@ -14,13 +14,13 @@ function Opciones(props) {
         to="/Multiplicacion"
         className="btn btn-danger m-2 col-6 btn-block mx-auto"
       >
-        Multiplicacion
+        Multiplicación
       </Link>
       <Link
         to="/Division"
         className="btn btn-primary m-2 col-6 btn-block mx-auto"
       >
-        Division
+        División
       </Link>
     </div>
   );
