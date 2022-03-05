@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import swal from "sweetalert"
 import Banner from "./Banner";
 import Resultado from "./Resultado";
 import { Link } from "react-router-dom";
@@ -14,7 +15,7 @@ export default class Suma extends Component {
 
   desordenarNumeros = () => {
     this.setState({
-      numeros: this.state.numeros.sort(function() {
+      numeros: this.state.numeros.sort(function () {
         return Math.random() - 0.5;
       })
     });
@@ -27,10 +28,26 @@ export default class Suma extends Component {
     Math.trunc(resultado);
     if (resultado == this.resultadoRef.current.value) {
       this.setState({ acertadas: this.state.acertadas + 1 });
-      alert("Excelente :)");
+      swal(
+        {
+          title: "Excelente",
+          text: "Respuesta correcta!",
+          icon: "success",
+          button: "Aceptar",
+          timer: "5000"
+        }
+      )
     } else {
       this.setState({ falladas: this.state.falladas + 1 });
-      alert("Has fallado :(");
+      swal(
+        {
+          title: "Has fallado",
+          text: "La proxima ira mejor",
+          icon: "error",
+          button: "Aceptar",
+          timer: "5000"
+        }
+      )
     }
     this.setState({ intentos: this.state.intentos + 1 });
     document.getElementById("numero").value = "";
@@ -86,15 +103,15 @@ export default class Suma extends Component {
         </div>
         {this.state.intentos == 5 &&
           ((document.getElementById("numero").disabled = true),
-          (document.getElementById("enviar").disabled = true),
-          (
-            <Link
-              to="/Resultado"
-              component={Resultado}
-              acertadas={this.state.acertadas}
-              falladas={this.state.falladas}
-            ></Link>
-          ))}
+            (document.getElementById("enviar").disabled = true),
+            (
+              <Link
+                to="/Resultado"
+                component={Resultado}
+                acertadas={this.state.acertadas}
+                falladas={this.state.falladas}
+              ></Link>
+            ))}
       </div>
     );
   }

@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import "./App.css";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Inicio from "./Inicio";
-import NF from "./NF";
+import Inicio from "./componentes/Inicio";
+import NF from "./componentes/NF";
 import Suma from "./componentes/Suma";
 import Resta from "./componentes/Resta";
 import Division from "./componentes/Division";
@@ -19,7 +19,7 @@ export default class App extends Component {
           <Route exact path="/Resta" component={Resta} />
           <Route exact path="/Multiplicacion" component={Multiplicacion} />
           <Route exact path="/Division" component={Division} />
-          <Route component={NF} />
+          <Route component={Inicio} />
         </Switch>
       </Router>
     );

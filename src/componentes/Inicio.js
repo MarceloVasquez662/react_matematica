@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import Opciones from "./componentes/Opciones";
-import Banner from "./componentes/Banner";
+import Opciones from "./Opciones";
+import Banner from "./Banner";
 
 export default class Inicio extends Component {
   render() {
