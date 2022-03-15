@@ -14,7 +14,7 @@ Practica lo mas básico de las matemáticas con las sencillas operaciones de Mat
 
 ## Instalacion y pruebas
 
-Si desea descargar el c+odigo y ejecutarlo localmente, debe instalar los modulos de Node para lograr ejecutar el proyecto. Para ello:
+Si desea descargar el código y ejecutarlo localmente, debe instalar los modulos de Node para lograr ejecutar el proyecto. Para ello:
 
 - Copiamos el repositorio en la dirección deseada (Ejecutamos *git clone https://github.com/MarceloVasquez662/react_matematica.git*)
 - Nos desplazamos dentro del proyecto e instalamos los módulos de Node (Ejecutamos *npm install --save react-scripts*)
