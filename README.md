@@ -12,3 +12,8 @@ Practica lo mas básico de las matemáticas con las sencillas operaciones de Mat
 ![Operacion](https://raw.githubusercontent.com/MarceloVasquez662/react_matematica/master/imagenesProyecto/Operacion.png)
 ![Resultado](https://raw.githubusercontent.com/MarceloVasquez662/react_matematica/master/imagenesProyecto/Resultado.png)
 
+## Instalacion y pruebas
+
+Si desea descargar el c+odigo y ejecutarlo localmente, debe instalar los modulos de Node para lograr ejecutar el proyecto. Para ello:
+
+- Copiamos el repositorio en la dirección deseada
