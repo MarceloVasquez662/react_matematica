@@ -16,4 +16,4 @@ Practica lo mas básico de las matemáticas con las sencillas operaciones de Mat
 
 Si desea descargar el c+odigo y ejecutarlo localmente, debe instalar los modulos de Node para lograr ejecutar el proyecto. Para ello:
 
-- Copiamos el repositorio en la dirección deseada
+- Copiamos el repositorio en la dirección deseada (*Debe tener instalado GIT*)
